@@ -19,7 +19,7 @@ export const Layout = ({children}:LayoutProps) => {
         </>
     )
 }
-
+//testgi
 export const withLayout =<T extends Record<string,unknown >> (Component: React.FC<T>)=> {
     return function withLayoutComponent(props:T) {
         return (
